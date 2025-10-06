@@ -1,0 +1,43 @@
+* {
+       /* font-family: Georgia, serif; */
+       color: black;
+}
+
+.btn {
+       text-decoration: none;
+       /* color: black; */
+       /* background-color: ; */
+}
+
+.btn, .badge{
+       transition: all 0.3s ease;
+       -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+       -ms-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+}
+
+.btn:hover {
+       box-shadow: 2px 4px 5px black;
+       background-color: rgba(0, 0, 255, 0.712);
+       color: white;
+
+}
+
+
+
+.btn .badge {
+       background-color: red;
+}
+
+
+
+.btn:hover .badge {
+       background-color: rgba(0, 0, 255, 0);
+}
+
+.alert{
+       display: flex;
+       flex-direction: column;
+       width: 80vh;
+}
