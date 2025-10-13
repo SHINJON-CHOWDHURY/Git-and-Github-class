@@ -9,7 +9,8 @@
        /* background-color: ; */
 }
 
-.btn, .badge{
+.btn,
+.badge {
        transition: all 0.3s ease;
        -webkit-transition: all 0.3s ease;
        -moz-transition: all 0.3s ease;
@@ -36,11 +37,66 @@
        background-color: rgba(0, 0, 255, 0);
 }
 
-.alert{
+.alert {
        /* display: flex; */
        flex-direction: column;
        width: 80vh;
 }
- 
 
- 
+
+
+
+.form-control:focus {
+       background-color: aqua;
+       /* color: blanchedalmond; */
+       color: black;
+}
+
+.form-control:focus+.search_btn {
+       background-color: blue;
+       color: white;
+}
+
+.card_image {
+       width: 18rem;
+}
+
+.girl_card {
+       border: 1px solid #ccc;
+       width: 18rem;
+       border-radius: 10px;
+       -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+       -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+       margin-top: 10px;
+       transition: box-shadow .3s;
+       -webkit-transition: box-shadow .3s;
+       -moz-transition: box-shadow .3s;
+       -ms-transition: box-shadow .3s;
+       -o-transition: box-shadow .3s;
+
+       background-image: url(https://www.freepik.com/free-vector/realistic-glassmorphism-background_27510229.htm#fromView=keyword&page=1&position=16&uuid=24006d7b-d7e8-4a6f-91cf-ed24dda50ae8&query=Glassmorphism);
+
+
+}
+
+.girl_card img {
+       width: 100%;
+       object-fit: contain;
+       background: #f3f3f3
+}
+
+.girl_card:hover {
+       box-shadow: 8px 8px 12px rgb(95, 93, 93);
+
+}
+
+.card_image {
+       width: 18rem;
+}
+
+.card-body {
+       background-color: rgba(18, 3, 3, 0.144);
+       backdrop-filter: blur(10px);
+}
