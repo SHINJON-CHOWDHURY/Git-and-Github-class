@@ -121,7 +121,7 @@
        /* grid-template-columns==> defines how many xolumn we need to create */
        grid-template-columns: 120px 120px;
 }
-
+/*  */
 .iteam {
        border: 2px solid black;
        width: 100px;
